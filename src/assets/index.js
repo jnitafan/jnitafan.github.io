@@ -9,7 +9,7 @@ import timeline from "./timeline-icon.svg";
 
 import html from "./tech/html.png";
 import css from "./tech/css.png";
-import less from "./tech/less.png"
+import less from "./tech/less.png";
 import javascript from "./tech/javascript.png";
 import git from "./tech/git.png";
 import adapt from "./tech/adapt.png";
@@ -40,14 +40,11 @@ import goblinLorde from "./GoblinLorde.png";
 
 export {
   logo,
-
   timeline,
-  
   frontend,
   multimedia,
   illustration,
   games,
-
   html,
   css,
   less,
@@ -73,7 +70,6 @@ export {
   python,
   php,
   mysql,
-
   isc,
   sit,
   liminalDanceoff,
