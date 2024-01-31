@@ -3,7 +3,7 @@ import { EnvelopeOpenIcon, LinkIcon } from "@heroicons/react/24/outline";
 import { styles } from "../styles";
 import { RobotCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
       className={`flex lg:flex-row flex-col-reverse overflow-hidden items-center justify-between`}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={fadeIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-tertiary p-8 rounded-2xl lg:m-8 w-full"
       >
         <p className={styles.sectionSubText}>Let's build some apps.</p>
@@ -36,7 +36,7 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={fadeIn("right", "tween", 0.2, 1)}
         className="size-[32rem]"
       >
         <RobotCanvas />

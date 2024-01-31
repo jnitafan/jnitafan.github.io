@@ -55,6 +55,7 @@ const RobotCanvas = () => {
   return (
     <div ref={ref} className="size-full">
       <Canvas
+        className="manipulation"
         shadows
         frameloop={inView ? "always" : "never"}
         dpr={[1, 2]}

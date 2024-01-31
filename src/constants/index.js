@@ -202,7 +202,7 @@ const experiences = [
     company_name: "Didasko People Solutions & Didasko Learning Resources",
     date: "March 2022 - Devember 2023",
     points: [
-      "Created tools to automate repetitive CI/CD tasks that increased output and reduced human caused errors and mistakes",
+      "Created tools to automate repetitive tasks with CI/CD that increased output and reduced human caused errors and mistakes",
       "Collaborated with sales and marketing to design and create numerous solutions for a digital commerce website.",
       "Made dynamic and user-friendly experiences for students with the goal of maintaining high engagement statistics and learning content retention.",
     ],
@@ -212,7 +212,7 @@ const experiences = [
     company_name: "Canterbury International Hotel",
     date: "October 2021 - December 2021",
     points: [
-      "Offered work due to results from the IT internship.",
+      "Offered work due to output from an IT internship.",
       "Overhauled and managed Wordpress CMS content and updated it based on new developments.",
       "Created multiple types of media such as videos, posters and interactive content for marketing purposes.",
     ],
@@ -222,8 +222,8 @@ const experiences = [
     company_name: "Boronia Life Counselling",
     date: "March 2021 - October 2021",
     points: [
-      "Remade and tweaked multiple old Wordpress websites to follow W3C standards to increase performance, be responsive and increase security.",
-      "Learned career responsibilities such as conduct, practices and knowledge to be able to communicate professionally. ",
+      "Remade and redeveloped multiple ancient Wordpress websites to follow W3C standards, be responsive and less prone to cyberattacks.",
+      "Learned standard career responsibilities such as conduct, practices and knowledge to be able to communicate more professionally. ",
       "Engaged with numerous clients and requirements and learned multiple approaches on delivering results with flexibility.",
     ],
   },
@@ -252,7 +252,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Jacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitudeJacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitude.",
+      "Jacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitude. Jacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitude.",
     name: "Meines Lim",
   },
 ];

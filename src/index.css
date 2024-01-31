@@ -233,6 +233,15 @@
   }
 }
 
+/* Three.js mobile scrollthrough */
+div.no-manipulation {
+  touch-action: auto !important;
+}
+
+div.manipulation {
+  touch-action: manipulation !important;
+}
+
 .content {
   user-select: none;
   padding-top: 10px;

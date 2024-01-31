@@ -37,6 +37,7 @@ const Me = () => {
 const MeCanvas = () => {
   return (
     <Canvas
+      className="manipulation"
       frameloop="demand"
       shadows
       camera={{ position: [17, 3, 10], fov: 25 }}
@@ -48,7 +49,6 @@ const MeCanvas = () => {
           autoRotateSpeed={-1}
           enableZoom={false}
           enablePan={false}
-          enableRotate={false}
           minPolarAngle={Math.PI / 2}
           maxPolarAngle={Math.PI / 2}
         />

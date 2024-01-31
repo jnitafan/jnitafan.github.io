@@ -132,7 +132,7 @@ function Confetti(
 const ConfettiCanvas = () => {
   return (
     <div className="absolute w-full h-auto inset-0 z-[-1] border-t-4 border-secondary">
-      <Canvas camera={{ position: [0, 0, 7.5] }}>
+      <Canvas camera={{ position: [0, 0, 7.5] }} className="no-manipulation">
         <color attach="background" args={["#080808"]} />
         <Suspense fallback={null}>
           <Confetti
