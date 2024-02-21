@@ -198,9 +198,9 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Multimedia Developer",
+    title: "Web Developer",
     company_name: "Didasko People Solutions & Didasko Learning Resources",
-    date: "March 2022 - Devember 2023",
+    date: "March 2022 - December 2023",
     points: [
       "Created tools to automate repetitive tasks with CI/CD that increased output and reduced human caused errors and mistakes",
       "Collaborated with sales and marketing to design and create numerous solutions for a digital commerce website.",
@@ -230,7 +230,7 @@ const experiences = [
   {
     title: "Freelance Illustrator",
     company_name: "Self",
-    date: "Jan 2019 - Februrary 2021",
+    date: "Jan 2019 - February 2021",
     points: [
       "Cultivated networking ability and self-advertising skills to be able to promote self to thousands of clients.",
       "Visualizing and understanding of client ideas and features and execution of idea implementation.",
