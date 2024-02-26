@@ -17,7 +17,7 @@ const Me = () => {
       <hemisphereLight intensity={1} groundColor="black" />
       <pointLight intensity={0.1} />
       <spotLight
-        position={[0, 5, -1]}
+        position={[0, 10, -1]}
         angle={0.3}
         penumbra={1}
         intensity={100}
@@ -27,7 +27,7 @@ const Me = () => {
       <primitive
         object={me.scene}
         scale={0.75}
-        position={[0.5, -3.75, -0.5]}
+        position={[0.5, -4, -0.5]}
         rotation={[0, 1.3, 0]}
       />
     </mesh>
