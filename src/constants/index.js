@@ -198,7 +198,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
+    title: "Web Multimedia Developer",
     company_name: "Didasko People Solutions & Didasko Learning Resources",
     date: "March 2022 - December 2023",
     points: [
