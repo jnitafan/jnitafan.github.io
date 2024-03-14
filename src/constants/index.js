@@ -200,7 +200,7 @@ const experiences = [
   {
     title: "Web Multimedia Developer",
     company_name: "Didasko People Solutions & Didasko Learning Resources",
-    date: "March 2022 - December 2023",
+    date: "March 2022 - Current",
     points: [
       "Created tools to automate repetitive tasks with CI/CD that increased output and reduced human caused errors and mistakes",
       "Collaborated with sales and marketing to design and create numerous solutions for a digital commerce website.",
@@ -301,7 +301,7 @@ const projects = [
   {
     name: "Liminal Danceoff",
     description:
-      "Liminal Danceoff was a virtual experience provided to Liminal that featured robots you could dance along with. Created in Unity",
+      "Liminal Danceoff is a VR experience provided to Liminal that featured robots you could dance along with. Created in Unity with Unity's XR",
     tags: [
       {
         name: "Unity",
