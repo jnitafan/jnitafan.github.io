@@ -61,9 +61,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-lg max-w-3xl leading-8"
         >
-          Throughout my journey in IT, I have actively engaged in multiple types
+          Ever since graduating with a Bachelors of IT, I have actively engaged in multiple types
           of work, mainly front-end development and game development. Here are a
-          few projects that I have done, and their links to see what they are.
+          few projects that I have done.
         </motion.p>
       </div>
 
