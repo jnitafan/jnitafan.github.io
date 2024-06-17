@@ -198,6 +198,16 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Multimedia Developer (Contract)",
+    company_name: "TAFE Queensland",
+    date: "May 2024 - July 2024",
+    points: [
+      "Government job contract to create engaging and memorable content for students.",
+      "Specialized role focused on curating interactive experiences, utilized comprehensive web development skills to work with the limitations of the CMS (Brightspace D2L.",
+      "Utilized WCAG 2.1 and Responsive guidelines to ensure content can be viewed on a multitude of devices.",
+    ],
+  },
+  {
     title: "Web Multimedia Developer",
     company_name: "Didasko People Solutions & Didasko Learning Resources",
     date: "March 2022 - December 2023",
