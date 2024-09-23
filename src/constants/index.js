@@ -198,7 +198,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Multimedia Developer (Contract)",
+    title: "Multimedia Developer (Frontend)",
     company_name: "TAFE Queensland",
     date: "May 2024 - Current",
     points: [
