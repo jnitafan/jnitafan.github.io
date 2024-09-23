@@ -200,7 +200,7 @@ const experiences = [
   {
     title: "Multimedia Developer (Contract)",
     company_name: "TAFE Queensland",
-    date: "May 2024 - July 2024",
+    date: "May 2024 - Current",
     points: [
       "Government job contract to create engaging and memorable content for students.",
       "Specialized role focused on curating interactive experiences, utilized comprehensive web development skills to work with the limitations of the CMS (Brightspace D2L.",
@@ -226,27 +226,7 @@ const experiences = [
       "Overhauled and managed Wordpress CMS content and updated it based on new developments.",
       "Created multiple types of media such as videos, posters and interactive content for marketing purposes.",
     ],
-  },
-  {
-    title: "IT Internship",
-    company_name: "Boronia Life Counselling",
-    date: "March 2021 - October 2021",
-    points: [
-      "Remade and redeveloped multiple ancient Wordpress websites to follow W3C standards, be responsive and less prone to cyberattacks.",
-      "Learned standard career responsibilities such as conduct, practices and knowledge to be able to communicate more professionally. ",
-      "Engaged with numerous clients and requirements and learned multiple approaches on delivering results with flexibility.",
-    ],
-  },
-  {
-    title: "Freelance Illustrator",
-    company_name: "Self",
-    date: "Jan 2019 - February 2021",
-    points: [
-      "Cultivated networking ability and self-advertising skills to be able to promote self to thousands of clients.",
-      "Visualizing and understanding of client ideas and features and execution of idea implementation.",
-      "Refined communication skills to ensure cooperation with clients is clear ensuring that such clients are satisfied.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
