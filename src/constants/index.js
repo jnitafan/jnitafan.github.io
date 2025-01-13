@@ -198,7 +198,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Multimedia Developer (Frontend)",
+    title: "Frontend Developer",
     company_name: "TAFE Queensland",
     date: "May 2024 - Current",
     points: [
@@ -208,7 +208,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Multimedia Developer",
+    title: "Frontend Developer",
     company_name: "Didasko People Solutions & Didasko Learning Resources",
     date: "March 2022 - December 2023",
     points: [
