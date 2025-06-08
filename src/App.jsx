@@ -12,8 +12,8 @@ const App = () => {
     >
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/connect_samples" element={<ConnectExample />} />
-        <Route path="/shortcourses" element={<ShortCourseExample />} />
+        <Route path="/archive/connect_samples" element={<ConnectExample />} />
+        <Route path="/archive/shortcourses" element={<ShortCourseExample />} />
       </Routes>
     </BrowserRouter>
   );
