@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -61,13 +60,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-lg max-w-3xl leading-8"
         >
-          Ever since graduating with a Bachelors of IT, I have actively engaged in multiple types
-          of work, mainly front-end development and game development. Here are a
-          few projects that I have done.
+          Ever since graduating with a Bachelors of IT, I have actively engaged
+          in multiple types of work, mainly front-end development and game
+          development. Here are a few projects that I have done.
         </motion.p>
       </div>
 
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

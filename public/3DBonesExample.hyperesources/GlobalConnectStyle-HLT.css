@@ -1,0 +1,278 @@
+.HYPE_scene .whiteText p,
+.HYPE_scene .whiteText h1,
+.HYPE_scene .whiteText h2,
+.HYPE_scene .whiteText h3,
+.HYPE_scene .whiteText h4,
+.HYPE_scene .whiteText h5,
+.HYPE_scene .whiteText ul,
+.HYPE_scene .whiteText ol,
+.HYPE_scene .whiteText li {
+    color: #FFF !important;
+}
+
+.HYPE_scene  p,
+.HYPE_scene  h1,
+.HYPE_scene  h2,
+.HYPE_scene  h3,
+.HYPE_scene  h4,
+.HYPE_scene  h5,
+.HYPE_scene  ul,
+.HYPE_scene  ol,
+.HYPE_scene  li,
+.HYPE_scene  li:before {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
+
+
+/* Next button */
+.HYPE_scene .nextBtn {
+    visibility: hidden;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.HYPE_scene .nextBtn:before {
+    visibility: visible;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    content: "\f061";
+    background-color: #333;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 0px;
+}
+
+.HYPE_scene .nextBtn:hover:before {
+    background: #ed1d24;
+}
+
+/*Previous button*/
+.HYPE_scene .previousBtn {
+    visibility: hidden;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.HYPE_scene .previousBtn:before {
+    visibility: visible;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    content: "\f060";
+    background-color: #333;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 0px;
+}
+
+.HYPE_scene .previousBtn:hover:before {
+    background: #ed1d24;
+}
+
+/*Home button*/
+.HYPE_scene .homeBtn {
+    visibility: hidden;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.HYPE_scene .homeBtn:before {
+    visibility: visible;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    content: "\f015";
+    background-color: #333;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0px;
+}
+
+.HYPE_scene .homeBtn:hover:before {
+    background: #ed1d24;
+}
+
+/* Breadcrumb buttons */
+.HYPE_scene .breadcrumb {
+    display: flex;
+}
+
+.HYPE_scene .breadcrumb .dot {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10% !important;
+    background-color: #003057 !important;
+    margin: 5px; 
+    cursor: pointer;
+    border: 1px solid #003057 !important;
+}
+
+.HYPE_scene .breadcrumb .dot:hover {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10% !important;
+    background-color: #4A1829 !important;
+    margin: 5px; 
+    cursor: pointer;
+    border: 1px solid #4A1829 !important;
+}
+
+.HYPE_scene .breadcrumb .reddot {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10% !important;
+    background-color: #666666 !important;
+    margin: 5px;
+    border: 1px solid #666666 !important;
+    /*cursor: pointer;*/
+}
+
+/* White text */
+.HYPE_scene .whiteText hr {
+    border-top: 1px dotted #FFF !important;
+}
+
+.HYPE_scene p {
+    margin: 0px !important;
+    padding: 0px 0px 12px 0px !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+}
+
+
+.HYPE_scene .redBox {
+    background-color: #ed1d24;
+}
+
+.HYPE_scene .blueBox {
+    background-color: #003057;
+}
+
+.HYPE_scene .blueBox2 {
+    background-color: rgba(0, 48, 87, 0.8); 
+    border-bottom: 4px solid #ed1d24;
+    backdrop-filter: blur(7px);
+}
+
+.HYPE_scene .blueBox3 {
+    background-color: rgba(0, 48, 87, 1); 
+    border-bottom: 4px solid #ed1d24;
+    backdrop-filter: blur(7px);
+}
+
+.HYPE_scene .whiteBox {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-bottom: 4px solid #ed1d24;
+    backdrop-filter: blur(7px);
+}
+
+
+.HYPE_scene h1,
+.HYPE_scene h2,
+.HYPE_scene h3,
+.HYPE_scene h4 {
+    font-weight: 500 !important;
+    color: #003057 !important;
+    margin: 0px !important;
+    padding: 0px 0px 12px 0px !important;
+}
+
+.HYPE_scene h1 {
+    font-size: 28px !important;
+    line-height: 40px !important;
+}
+
+.HYPE_scene h2 {
+    font-size: 24px !important;
+    line-height: 34px !important;
+}
+
+.HYPE_scene h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+.HYPE_scene h4 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+}
+
+.noBuffer {
+    margin: 0 !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.HYPE_scene ol {
+    padding: 0px !important;
+    margin: 0px 0px 12px 20px !important;
+    color: #333 !important;
+}
+
+.HYPE_scene ol li {
+    margin-left: 17px !important;
+    padding: 0em 1.5em 0.2em 0em !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+}
+
+.HYPE_scene ul {
+    list-style-type: none !important;
+    list-style-type: decimal !ie !important;
+    /*IE 7- hack*/
+    margin-left: 1.5em !important;
+    padding: 0px !important;
+    margin: 0px 0px 12px 20px !important;
+    color: #333 !important;
+}
+
+.HYPE_scene ul li {
+    position: relative !important;
+    padding: 0em 1.5em 0.2em 0.5em !important;
+    border-radius: 0px !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+}
+
+.HYPE_scene ul li::before {
+    position: absolute !important;
+    left: -0.8em !important;
+    font-family: FontAwesome !important;
+    src: url("font-awesome.min.css") !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    color: #4F7CB0 !important;
+    z-index: 99 !important;
+    overflow: hidden !important;
+    text-align: center !important;
+    content: "\f0c8" !important;
+    font-size: 44% !important;
+}
+
+.HYPE_scene hr {
+    border-top: 1px dotted #003057 !important;
+    margin-bottom: 10px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+
+}
+
+.HYPE_scene i.fa {
+    font-style: normal !important;
+    font-family: "FontAwesome" !important;
+}

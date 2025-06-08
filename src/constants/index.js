@@ -32,16 +32,18 @@ import {
   sit,
   liminalDanceoff,
   goblinLorde,
+  howdowebpages,
+  siege3dmaps,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Overview",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -196,58 +198,47 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Frontend Developer",
-    company_name: "TAFE Queensland",
-    date: "May 2024 - Current",
-    points: [
-      "Government job contract to create engaging and memorable content for students.",
-      "Specialized role focused on curating interactive experiences, utilized comprehensive web development skills to work with the limitations of the CMS (Brightspace D2L.",
-      "Utilized WCAG 2.1 and Responsive guidelines to ensure content can be viewed on a multitude of devices.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Didasko People Solutions & Didasko Learning Resources",
-    date: "March 2022 - December 2023",
-    points: [
-      "Created tools to automate repetitive tasks with CI/CD that increased output and reduced human caused errors and mistakes",
-      "Collaborated with sales and marketing to design and create numerous solutions for a digital commerce website.",
-      "Made dynamic and user-friendly experiences for students with the goal of maintaining high engagement statistics and learning content retention.",
-    ],
-  },
-  {
-    title: "Multimedia Designer",
-    company_name: "Canterbury International Hotel",
-    date: "October 2021 - December 2021",
-    points: [
-      "Offered work due to output from an IT internship.",
-      "Overhauled and managed Wordpress CMS content and updated it based on new developments.",
-      "Created multiple types of media such as videos, posters and interactive content for marketing purposes.",
-    ],
-  }
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I had a great time working with Jacob! He is lightning fast at learning new skills, and was always finding new technologies/techniques to speed up development times not just for himself, but for our entire team. Always the most cheerful person in the room, everyone will have a great time working with Jacob!",
-    name: "Milton Plotkin",
-  },
-  {
-    testimonial:
-      "Don’t be fooled by this young chap. Jacob is highly proficient with his programming skill and is always driven to make work processes efficient. Not only is he quick to pick up on the coding behind a new programming project he has not seen before, the solution he derived at are easy to understand even for non-programmer like myself. Outside of work, Jacob is always happy and patient to share his knowledge about latest trends and jargon used by the younger generation. In another word, Jacob is an absolutely awesome guy to work with. Would recommend Jacob to any company looking to streamline programming requirements.",
-    name: "Steven Tan",
-  },
-  {
-    testimonial:
-      "Jacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitude. Jacob is a great web multimedia developer and I love working with him. He is the guy you want when you need troubleshooting. He solves problems with expertise – calmly, professionally, with a great attitude.",
-    name: "Meines Lim",
-  },
-];
-
 const projects = [
+  {
+    name: "Siege 3D Maps",
+    description:
+      "A real-time planning tool that enables users to collaboratively upload, share, and like 3D schematics, all synchronized via a cloud-based backend.",
+    tags: [
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "yJS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: siege3dmaps,
+  },
+  {
+    name: "How Do Webpages Work?",
+    description:
+      "An interactive site designed to teach core internet and web technologies, with a focus on the OSI model and network protocol layers.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "red-text-gradient",
+      },
+    ],
+    image: howdowebpages,
+  },
   {
     name: "Didasko ISC",
     description:
@@ -326,4 +317,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, projects };

@@ -37,6 +37,8 @@ import isc from "./ISC.jpg";
 import sit from "./SIT.jpg";
 import liminalDanceoff from "./LiminalDanceoff.png";
 import goblinLorde from "./GoblinLorde.png";
+import howdowebpages from "./howdowebpages.png";
+import siege3dmaps from "./siege3dmaps.png";
 
 export {
   logo,
@@ -74,4 +76,6 @@ export {
   sit,
   liminalDanceoff,
   goblinLorde,
+  howdowebpages,
+  siege3dmaps,
 };
