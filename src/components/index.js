@@ -6,6 +6,7 @@ import Tech from "./Tech";
 import Works from "./Works";
 import Contact from "./Contact";
 import Home from "./Home";
+import NotFound from "./NotFound";
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   RobotCanvas,
   CubeCanvas,
   MeCanvas,
+  NotFound,
 };
