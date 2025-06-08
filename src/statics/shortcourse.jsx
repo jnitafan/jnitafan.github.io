@@ -3,7 +3,7 @@ const ShortCourseExample = () => {
     <>
       <div className="bg-yellow-300 text-black p-4 text-center w-screen">
         This is a web snapshot thanks to waybackmachine for archival purposes.
-        Missing most if not all functionality.
+        Missing all functionality.
       </div>
       {console.log("Suprressing all scripts in the iframe.")}
       <div
@@ -18,7 +18,6 @@ const ShortCourseExample = () => {
           sandbox=""
           allow=""
           referrerPolicy="no-referrer"
-          style={{ pointerEvents: "none" }}
           title={`Short Courses Example`}
           width="100%"
           height="100%"
