@@ -1,8 +1,8 @@
 const ConnectExample = () => {
   const examples = [
-    { name: "Bones", file: "./3DBonesExample.html" },
-    { name: "Lungs", file: "./3DLungsExample.html" },
-    { name: "Planes", file: "./3DPlanesExample.html" },
+    { name: "Bones", file: "./archive/3DBonesExample.html" },
+    { name: "Lungs", file: "./archive/3DLungsExample.html" },
+    { name: "Planes", file: "./archive/3DPlanesExample.html" },
   ];
 
   return (

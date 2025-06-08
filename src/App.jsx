@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { Home, NotFound } from "./components";
+import { Home } from "./components";
 import { ShortCourseExample, ConnectExample } from "./statics";
 
 const App = () => {
@@ -14,7 +14,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/archive/connect_samples" element={<ConnectExample />} />
         <Route path="/archive/shortcourses" element={<ShortCourseExample />} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </HashRouter>
   );

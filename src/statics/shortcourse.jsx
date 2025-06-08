@@ -14,7 +14,7 @@ const ShortCourseExample = () => {
         }}
       >
         <iframe
-          src="./ShortCoursesExample.html"
+          src="./archive/ShortCoursesExample.html"
           sandbox=""
           allow=""
           referrerPolicy="no-referrer"
