@@ -1,10 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home, NotFound } from "./components";
 import { ShortCourseExample, ConnectExample } from "./statics";
 
 const App = () => {
   return (
-    <BrowserRouter
+    <HashRouter
       future={{
         v7_relativeSplatPath: true,
         v7_startTransition: true,
@@ -12,11 +12,11 @@ const App = () => {
     >
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="archive/connect_samples" element={<ConnectExample />} />
-        <Route path="archive/shortcourses" element={<ShortCourseExample />} />
+        <Route path="/archive/connect_samples" element={<ConnectExample />} />
+        <Route path="/archive/shortcourses" element={<ShortCourseExample />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
